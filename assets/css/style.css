@@ -1,0 +1,21 @@
+#container {
+    background-color: red;
+}
+
+#main {
+    background-color: yellow;
+}
+
+#pageName {
+    align-content: center;
+    background-color: pink;
+}
+
+p {
+    background-color: green;
+    align-content: center;
+}
+
+#submitButton {
+    background-color: blue;
+}

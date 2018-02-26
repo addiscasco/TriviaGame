@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <title>KimYe Trivia Game</title>
+</head>
+<body>
+    <div id=container>
+        
+            
+            <header>
+                <div></div>    
+                    <h1 id=pageName>KIMYE TRIVIA</h1>
+                </div>
+                <div>
+                    <p>Do you know more about Kimye than Kimye knows about Kimye?</p>
+                </div>
+            </header>
+            <section>
+                
+
+                <div id=results></div>
+                <form name=quizFrom onSubmit="return submitAnswers()"></form>
+                    <h3 id=question></h3>
+                    <input type="radio" name="q1" value="a" id="q1a">a
+                    <input type="radio" name="q2" value="b" id="q2b">b
+                    <input type="radio" name="q3" value="c" id="q3c">c
+                    <input type="radio" name="q4" value="d" id="q4d">d
+                    <input type="radio" name="q5" value="e" id="q5e">e
+
+            </section>
+
+        
+    </div> <!--close container-->
+    
+</body>
+<script type="text/javascript" src="./assets/javascript/app.js"></script>
+</html>
