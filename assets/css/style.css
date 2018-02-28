@@ -19,3 +19,8 @@ p {
 #submitButton {
     background-color: blue;
 }
+
+#triviaQuiz {
+    background-color: purple;
+    align-content: center;
+}
